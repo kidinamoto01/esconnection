@@ -90,6 +90,7 @@ object Readkafka {
     }
 
     //report_cve
+
     messgeCve.foreachRDD { x =>
       val hiveContext = new HiveContext(sc)
       // val text = sqlContext.read.json(x)
