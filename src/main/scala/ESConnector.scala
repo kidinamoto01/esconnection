@@ -50,7 +50,7 @@ object ESConnector {
 
     val hits = searchResp.getHits()
 
-    println(hits.getTotalHits())
+   // println(hits.getTotalHits())
 
     hits.getHits.foreach{
       x=>

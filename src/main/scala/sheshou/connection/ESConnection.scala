@@ -21,6 +21,7 @@ object ESConnection {
     val ipAddr = Array[Byte](42, 123, 99, 38)
     val client = new PreBuiltXPackTransportClient(settings).addTransportAddress(new InetSocketTransportAddress(InetAddress.getByAddress(ipAddr), 9300))
 
+    return client
   }
 
 }
